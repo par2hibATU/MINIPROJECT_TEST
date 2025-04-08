@@ -1927,7 +1927,7 @@ const FetchCategory = ({ navigation }) => {
     const fetchCategories = async () => {
       try {
         const res = await fetch(
-          "https://74d3-80-233-60-107.ngrok-free.app/categories",
+          "https://3.223.57.90/categories",
           {
             headers: {
               "ngrok-skip-browser-warning": "69420",
@@ -2045,7 +2045,7 @@ const FetchProducts = ({ route }) => {
     const fetchProducts = async () => {
       try {
         const res = await fetch(
-          "https://74d3-80-233-60-107.ngrok-free.app/getProductsByCategory",
+          "https://3.223.57.90/getProductsByCategory",
           {
             method: "POST",
             headers: {
@@ -2632,7 +2632,7 @@ const ProductDetails = ({ route }) => {
     const fetchProduct = async () => {
       try {
         const res = await fetch(
-          "https://74d3-80-233-60-107.ngrok-free.app/getSpecificProduct",
+          "https://3.223.57.90/getSpecificProduct",
           {
             method: "POST",
             headers: {
